@@ -42,7 +42,7 @@ This project summarizes object movement in a video by:
 
 This project was built in Google Colab.
 
-1. Open the notebook in [Google Colab]([https://colab.research.google.com](https://colab.research.google.com/drive/10g3m26OQoeoPdO2K7TURkKhgeQqhqqv9)) and take a copy in your Drive  
+1. Open the notebook in [Google Colab](https://colab.research.google.com/drive/10g3m26OQoeoPdO2K7TURkKhgeQqhqqv9) and take a copy in your Drive  
 2. Upload your `.avi` video to your Google Drive.
 3. **Before running, update the paths as needed:**
 
