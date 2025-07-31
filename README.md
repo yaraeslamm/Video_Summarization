@@ -1,16 +1,11 @@
 
 
-## ✅ README – Dynamic Video Summarization using Object Detection & Tracking
+## Dynamic Video Summarization using Object Detection & Tracking
 
-```markdown
-# Dynamic Video Summarization using Object Detection & Tracking
-
-**Author:** Yara Eslam  
-**Course:** Advanced Video Processing  
 
 ---
 
-## 🎯 Objective
+## Objective
 
 This project summarizes object movement in a video by:
 
@@ -20,7 +15,7 @@ This project summarizes object movement in a video by:
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 - **Background Modeling**:  
   Computed the median frame of the video to serve as a static reference.
@@ -36,27 +31,26 @@ This project summarizes object movement in a video by:
 
 ---
 
-## 🗂️ Output
+## Output
 
-- `output_frames/`: Frames with bounding boxes and object timestamps  
-- `reference_frames/`: A canvas showing all extracted objects with labels  
-- `reference_frame_with_objects.png`: Final reference image with all detected objects  
+- `frames/`: Frames with bounding boxes and object timestamps  
+- `reference_frame`: Final reference image with all detected objects  
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 This project was built in Google Colab.
 
-1. Open the notebook in [Google Colab](https://colab.research.google.com).  
+1. Open the notebook in [Google Colab]([https://colab.research.google.com](https://colab.research.google.com/drive/10g3m26OQoeoPdO2K7TURkKhgeQqhqqv9)) and take a copy in your Drive  
 2. Upload your `.avi` video to your Google Drive.
 3. **Before running, update the paths as needed:**
 
-```python
+```bash
 VIDEO_PATH = '/content/drive/My Drive/your_video.avi'
-OUTPUT_DIR = '/content/drive/My Drive/AVP/Projects'
-
-4. Run all cells. Output images will be saved inside OUTPUT_DIR
+OUTPUT_DIR = '/content/drive/My Drive/your_path'
+```
+4. Run the cell. Output images will be saved inside OUTPUT_DIR
 
 ##  Requirements
 
